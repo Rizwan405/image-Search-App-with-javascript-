@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Random Image Gallery</h1>
+      <div class="inputs">
+        <input type="text" placeholder="nature" / class="input-text">
+        <button class="btn">Search</button>
+        <div class="filter-buttons">
+          <button data-filter="nature" class="filter-btn">nature</button>
+          <button data-filter="cars" class="filter-btn">cars</button>
+          <button data-filter="beauty" class="filter-btn">beauty</button>
+          <button data-filter="space" class="filter-btn">space</button>
+          <button data-filter="galaxy" class="filter-btn">galaxy</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <p class="error"></p>
+      <div class="parent"></div>
+      <button class="load-btn">Load more</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
